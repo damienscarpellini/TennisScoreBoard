@@ -1,0 +1,98 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 10px;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.title {
+    font-size: 6rem;text-align: center;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+.scoreboard-table-container {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    height: 25vh;
+    margin: 1.5% 2.5%;
+    min-width: 400px;
+    min-height: 125px;
+}
+
+.scoreboard-table-container table th, .scoreboard-table-container table td {
+    font-size: 4rem;
+    text-align: center;
+    padding: 5px;
+}
+
+.scoreboard-table-container table th {
+    border-bottom: 2px solid black;
+}
+
+.scoreboard-table-th1, .scoreboard-table-th2{
+    border-right: 2px solid black;
+}
+
+.scoreboard-table-tr1-td1, .scoreboard-table-tr1-td2 {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.scoreboard-table-tr1-td3{
+    border-bottom: 2px solid black;
+}
+
+.scoreboard-table-tr2-td1, .scoreboard-table-tr2-td2 {
+    border-right: 2px solid black;
+}
+
+.player-buttons {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    height: 15vh;
+    margin: 1% 2.5% 0 2.5%;
+}
+
+.player-buttons button {
+    width: 10%;
+    min-width: 150px;
+    min-height: 100px;
+    font-size: 3rem;
+}
+
+.current-score-table-container {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    height: 45vh;
+    margin: 1.5% 2.5%;
+}
+
+.current-score-table-th1, .current-score-table-th2 {
+    font-size: 3rem;
+    padding: 0 5vw;
+}
+
+.current-score-table-tr1-td1, .current-score-table-tr1-td2 {
+    padding: 0 5vw;
+    text-align: center;
+    font-size: 10rem;
+}
+
+.current-score-table-tr2-td1, .current-score-table-tr2-td2 {
+    padding: 0 5vw;
+    text-align: center;
+    font-size: 4rem;
+}
